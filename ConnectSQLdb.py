@@ -1,10 +1,10 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-config = {'user': 'mfraynt',
-          'password': '18989828',
-          'host': '127.0.0.1',
-          'database': 'db',
+config = {'user': '  ', # User name should be provided
+          'password': '  ', # Password for logging in
+          'host': '127.0.0.1', # Here a localhost is specified
+          'database': '  ', # DB name shouldb be provided
           'raise_on_warnings': True,
           'use_pure': False}
 
