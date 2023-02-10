@@ -65,7 +65,9 @@ def load_webpage(url):
 ```
 1.2. Page navigation is automated till the point of downloading the file (```def pick_data(driver)``` in **CNY.py**).
 
-1.3. Data is read by **Pandas** and written to the database:
+### 2. Transformation and Loading
+
+2.1. Data is read by **Pandas** and written to the database:
 
 ```Python
 def record_CNY(file):
