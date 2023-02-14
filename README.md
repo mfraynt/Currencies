@@ -99,3 +99,4 @@ def record_CNY(file):
 ```
 ## Analysis
 For the analysis SARIMAX model is used. It starts with exploratory analysis and then searches for optimal model. Forecast gives quite good estimation for 1 lag (week) period with mean absolute error of 0.1%.
+[CHECK NOTEBOOK FOR DETAILS](https://github.com/mfraynt/Currencies/blob/main/Forecast%202.0.ipynb)
